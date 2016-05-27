@@ -8,8 +8,8 @@ import com.aliyun.oss.OSSClient;
 public enum OSSClientManager {
     INSTANCEONE;
     private String endpoint = "oss-cn-hangzhou.aliyuncs.com";
-    private String accessKeyId = "GFLpv2HYrtQMJqQM";
-    private String accessKeySecret = "9gHWEXkYndPRn1q1NafTw3vHNIJ5Tr";
+    private String accessKeyId = "";
+    private String accessKeySecret = "";
 
    private final OSSClient ossClient;
 
